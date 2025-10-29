@@ -1,0 +1,53 @@
+
+import 'package:socialfeedplus_parvathi/models/post.dart';
+
+final List<PostModel> dummyPosts = [
+  PostModel(
+    postId: 1,
+    profileImage: "assets/images/boy.png",
+    name: "John Doe",
+    username: "@johndoe",
+    date: "Oct 27, 2025",
+    time: "6:30 pm",
+    likes: 128.0,
+    caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    imagePath: '',
+    commentCount: 0,
+  ),
+  PostModel(
+    postId: 2,
+    profileImage: "assets/images/girl.png",
+    name: "Jane Smith",
+    username: "@janesmith",
+    date: "Oct 25, 2025",
+    time: "2:45 pm",
+    likes: 12.0,
+    caption: "Chasing sunsets and good vibes 🌅✨",
+    imagePath: '',
+    commentCount: 1,
+  ),
+  PostModel(
+    postId: 3,
+    profileImage: "assets/images/cat.jpg",
+    name: "Cats",
+    username: "@cats",
+    date: "Oct 27, 2025",
+    time: "6:30 pm",
+    likes: 536,
+    caption: "Birthday Cat <3",
+    imagePath: 'assets/images/bday-cat.jpg',
+    commentCount: 2,
+  ),
+  PostModel(
+    postId: 4,
+    profileImage: "assets/images/nerd.png",
+    name: "Sam Bennett",
+    username: "@jbennett",
+    date: "Oct 25, 2025",
+    time: "2:45 pm",
+    likes: 83,
+    caption: "A random person who likes my post will get \$100.",
+    imagePath: '',
+    commentCount: 0,
+  ),
+];
